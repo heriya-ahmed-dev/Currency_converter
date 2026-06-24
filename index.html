@@ -11,15 +11,15 @@
     <h1>Currency Converter</h1>
     <div>
         <h3>Enter Amount</h3>
-        <input/>
+        <input id="input"/>
     </div>
     <div>
         <div class="flex">
         <div>
            
            <h3>From</h3>
-            <select>
-              <option value="Dollar">USD</option>
+            <select id="from">
+              <option value="USD">USD</option>
               <option value="Euro">EUR</option>
               <option value="Pound">GBP</option>
               <option value="Yen">JPY</option>
@@ -34,8 +34,8 @@
         </div>
         <div>
             <h3>To</h3>
-             <select>
-              <option value="Dollar">USD</option>
+             <select id="to">
+              <option value="USD">USD</option>
               <option value="Euro">EUR</option>
               <option value="Pound">GBP</option>
               <option value="Yen">JPY</option>
@@ -48,9 +48,9 @@
            </select>
            </div>
         </div>
-        <h2>Result</h2>
+        <h2 id="result">Result</h2>
        </div>
-    <button>
+    <button id="convert">
         Get Exchange Rate
     </button>
     </section>
