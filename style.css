@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(76, 47, 143);
+}
+h1{
+    padding: 15px;
+}
+section{
+    width: 350px;
+    height: 70vh;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+h3{
+    margin: 15px;
+}
+select{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+select:hover{
+    background-color: rgb(212, 202, 202);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin: 10px;
+  
+}
+input{
+    width: 200px;
+    text-align: center;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-width: none;
+    border-color: rgb(67, 109, 147);
+}
+button{
+     width: 200px;
+    text-align: center;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(75, 75, 203);
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+  background-color: rgb(36, 36, 164);
+  transform: scale(1.01);
+}
