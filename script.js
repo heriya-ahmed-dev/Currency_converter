@@ -32,7 +32,7 @@ document.getElementById('convert').addEventListener('click',()=>{
         curr = (78 + input)
     }
     else if(from == "Won"){
-        curr = (1380 + input)
+        curr = (1381 + input)
     }
     else if(from == "Riyal"){
         curr = (45 + input)
